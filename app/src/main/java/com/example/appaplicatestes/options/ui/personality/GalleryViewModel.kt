@@ -1,4 +1,4 @@
-package com.example.appaplicatestes.options.ui.gallery
+package com.example.appaplicatestes.options.ui.personality
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

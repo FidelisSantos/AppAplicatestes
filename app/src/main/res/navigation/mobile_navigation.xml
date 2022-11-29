@@ -12,14 +12,20 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.appaplicatestes.options.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_personality"
+        android:name="com.example.appaplicatestes.options.ui.personality.PersonalityFragment"
+        android:label="Personalidade"
+        tools:layout="@layout/fragment_personality" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.appaplicatestes.options.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_depression"
+        android:name="com.example.appaplicatestes.options.ui.depression.DepressionFragment"
+        android:label="Depressão"
+        tools:layout="@layout/fragment_depression"
+        />
 </navigation>
