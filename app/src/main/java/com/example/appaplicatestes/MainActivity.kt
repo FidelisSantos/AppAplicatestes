@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.appaplicatestes.options.OptionsActivity
 import com.example.appaplicatestes.register.RegisterActivy
 
 class MainActivity : AppCompatActivity() {
@@ -15,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         val btn_cadastrar = findViewById<Button>(R.id.btn_cadastrar);
 
         btn_login.setOnClickListener{
-            val cadastrar = Intent(this, RegisterActivy::class.java)
+            val cadastrar = Intent(this, OptionsActivity::class.java)
             startActivity(cadastrar)
         }
         btn_cadastrar.setOnClickListener{
