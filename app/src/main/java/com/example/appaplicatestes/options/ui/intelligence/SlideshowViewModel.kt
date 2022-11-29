@@ -1,4 +1,4 @@
-package com.example.appaplicatestes.options.ui.slideshow
+package com.example.appaplicatestes.options.ui.intelligence
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
