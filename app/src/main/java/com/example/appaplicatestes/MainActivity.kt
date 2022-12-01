@@ -3,9 +3,11 @@ package com.example.appaplicatestes
 import android.content.ContentValues.TAG
 import android.content.Intent
 import android.os.Bundle
+import android.text.InputType
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.appaplicatestes.options.OptionsActivity
@@ -23,11 +25,20 @@ class MainActivity : AppCompatActivity() {
 
         val btn_login = findViewById<Button>(R.id.btn_login);
         val btn_cadastrar = findViewById<Button>(R.id.btn_cadastrar);
+        val btn_visible_password = findViewById<ImageButton>(R.id.password_visible)
 
-        super.onStop()
         val currentUser = firebaseAuth.currentUser
         if(currentUser == null){
             Toast.makeText(this, "Usuário vazio", Toast.LENGTH_SHORT).show()
+        }
+
+        btn_visible_password.setOnClickListener{
+            val isVisible = findViewById<EditText>(R.id.editTextPassword)
+            if(isVisible.inputType != InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD){
+                isVisible.inputType = InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD
+            }else{
+                isVisible.inputType = InputType.TYPE_TEXT_VARIATION_PASSWORD
+            }
         }
 
         btn_login.setOnClickListener{
