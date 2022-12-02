@@ -9,6 +9,8 @@ import androidx.fragment.app.Fragment
 import com.example.appaplicatestes.databinding.FragmentIntelligenceBinding
 import com.example.appaplicatestes.options.ui.intelligence.activys.CpmActivity
 import com.example.appaplicatestes.options.ui.intelligence.activys.G36Activity
+import com.example.appaplicatestes.options.ui.intelligence.activys.R1Activity
+import com.example.appaplicatestes.options.ui.intelligence.activys.WiscActivity
 
 
 class IntelligenceFragment : Fragment() {
@@ -21,14 +23,27 @@ class IntelligenceFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         binding =  FragmentIntelligenceBinding.inflate(inflater, container, false)
+
         binding.btnG36.setOnClickListener {
             val intent = Intent(this.activity, G36Activity::class.java)
             startActivity(intent)
         }
+
         binding.btnCpm.setOnClickListener {
             val intent = Intent(this.activity, CpmActivity::class.java)
             startActivity(intent)
         }
+
+        binding.btnR1.setOnClickListener {
+            val intent = Intent(this.activity, R1Activity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnWisc.setOnClickListener {
+            val intent = Intent(this.activity, WiscActivity::class.java)
+            startActivity(intent)
+        }
+
         return binding.root
     }
 }
