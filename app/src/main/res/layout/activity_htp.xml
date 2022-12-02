@@ -4,17 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center_horizontal"
-    android:backgroundTint="@color/dark_grey"
-    android:orientation="horizontal"
-    tools:context=".options.ui.depression.activys.BdiIiActivity">
+    tools:context=".options.ui.personality.activys.HtpActivity">
 
     <TextView
-        android:id="@+id/text_title_bdi_ii"
+        android:id="@+id/text_title_htp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/dark_grey"
-        android:text="BDI-II"
+        android:text="HTP"
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,13 +19,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/text_aplication_bdi_ii"
+        android:id="@+id/text_aplication_htp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="APLICAÇÃO: Individual / Coletivo"
+        android:text="APLICAÇÃO: Individual"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/text_items_bdi_ii"
-        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintEnd_toEndOf="@+id/text_items_htp"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.051" />
@@ -38,53 +35,55 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:text="CONTEXTO: Gravidade de depressão e diagnóstico psiquiátrico"
+        android:text="CONTEXTO: Organizacional e clinica"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.139" />
+        app:layout_constraintVertical_bias="0.143" />
 
     <TextView
-        android:id="@+id/text_time_bdi_ii"
+        android:id="@+id/text_time_htp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TEMPO:  Não há tempo limite/mas em geral 05 a 10 minutos"
+        android:text="TEMPO:  Sem limite de tempo, sendo que a maioria das aplicações leva em média de 30 a 90 minutos. "
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.191" />
+        app:layout_constraintVertical_bias="0.22" />
 
     <TextView
-        android:id="@+id/text_correction_bdi_ii"
+        android:id="@+id/text_correction_htp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="130dp"
-        android:text="CORREÇÃO:Manual"
+        android:text="CORREÇÃO: Manual"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.086"
-        app:layout_constraintStart_toStartOf="@+id/text_items_bdi_ii"
+        app:layout_constraintStart_toStartOf="@+id/text_items_htp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.099" />
 
     <TextView
-        android:id="@+id/text_obj_bdi_ii"
+        android:id="@+id/text_obj_htp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="OBJETIVO: Medir a intensidade da depressão​."
+        android:text="OBJETIVO: Compreender aspectos da personalidade do indivíduo bem como a forma deste indivíduo interagir com as pessoas e com o ambiente."
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.229" />
+        app:layout_constraintVertical_bias="0.303" />
 
     <TextView
-        android:id="@+id/title_description_bdi_ii"
+        android:id="@+id/title_description_htp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="DESCRIÇÃO"
@@ -92,10 +91,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.532" />
+        app:layout_constraintVertical_bias="0.553" />
 
     <TextView
-        android:id="@+id/text_description_bdi_ii"
+        android:id="@+id/text_description_htp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="6dp"
@@ -103,36 +102,36 @@
         android:autoText="false"
         android:elegantTextHeight="true"
         android:freezesText="false"
-        android:text="É uma ferramenta de avaliação, para medir a presença e gravidade de sintomas depressivos, correspondentes aos critérios diagnósticos dos transtornos depressivos, descritos no Manual Diagnóstico e Estatístico dos Transtornos Mentais - Quarta Edição (DSM-IV), em pessoas de diferentes faixas etárias, tanto da população clínica como da população geral.          Instrumento composto por 21 itens, apresenta poucas dificuldades em relação à aplicação, sendo de fácil manuseio pelo usuário."
+        android:text="O Inventário de Estilos Parentais (IEP) é um instrumento que avalia as práticas utilizadas pelos pais para educar seus filhos, tanto pela percepção dos filhos como dos pais. Ele possui três versões: 1 - Inventário de Estilos Parentais – Versão para Avaliação Paterna: é a versão em que os filhos respondem sobre as práticas parentais utilizadas por seus pais; 2 - Inventário de Estilos Parentais – Versão para Avaliação Materna: onde os filhos respondem sobre as práticas parentais utilizadas por suas mães; 3 - Inventário de Estilos Parentais – Versão para Autoavaliação dos Pais: é a versão em que os pais respondem sobre as práticas parentais utilizadas na educação de seus filhos."
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.749" />
+        app:layout_constraintVertical_bias="0.808" />
 
     <TextView
-        android:id="@+id/text_items_bdi_ii"
+        android:id="@+id/text_items_htp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ITEMS: 1 Manual, 1 Caderno de Aplicação, 1 Bloco (c/25 fls) Raciocínio Matricial, 1 Crivo de Correção – Raciocínio Matricial, 1 Bloco (c/25 fls) Códigos, 1 Crivo de Correção – Códigos."
+        android:text="ITEMS: Cada versão vem acompanhada da respectiva folha de respostas e 10 formulários para avaliação."
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.395" />
+        app:layout_constraintVertical_bias="0.473" />
 
     <TextView
-        android:id="@+id/text_app_bdi_ii"
+        android:id="@+id/text_app_htp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="QUEM PODE APLICAR: Restrito ao psicólogo"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/text_items_bdi_ii"
-        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintEnd_toEndOf="@+id/text_items_htp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.272" />
+        app:layout_constraintVertical_bias="0.389" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,11 +1,14 @@
 package com.example.appaplicatestes.options.ui.personality
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.appaplicatestes.databinding.FragmentPersonalityBinding
+import com.example.appaplicatestes.options.ui.personality.activys.HtpActivity
+import com.example.appaplicatestes.options.ui.personality.activys.PfisterActivity
 
 class PersonalityFragment : Fragment() {
 
@@ -18,12 +21,19 @@ class PersonalityFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         binding = FragmentPersonalityBinding.inflate(inflater, container,false)
+
+        binding.btnHtp.setOnClickListener {
+            val intent = Intent(this.activity,HtpActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnPFister.setOnClickListener {
+            val intent = Intent(this.activity,PfisterActivity::class.java)
+            startActivity(intent)
+        }
+
         return binding.root
         }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
 
-        binding.textPersonality.text="Personalidade"
-    }
 }

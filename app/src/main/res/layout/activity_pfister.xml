@@ -4,17 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center_horizontal"
-    android:backgroundTint="@color/dark_grey"
-    android:orientation="horizontal"
-    tools:context=".options.ui.depression.activys.BdiIiActivity">
+    tools:context=".options.ui.personality.activys.PfisterActivity">
 
     <TextView
-        android:id="@+id/text_title_bdi_ii"
+        android:id="@+id/text_title_pfister"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/dark_grey"
-        android:text="BDI-II"
+        android:text="PFISTER"
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,69 +19,71 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/text_aplication_bdi_ii"
+        android:id="@+id/text_aplication_pfister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="APLICAÇÃO: Individual / Coletivo"
+        android:text="APLICAÇÃO: Individual"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/text_items_bdi_ii"
-        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintEnd_toEndOf="@+id/text_items_pfister"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.051" />
 
     <TextView
-        android:id="@+id/text_context_htp"
+        android:id="@+id/text_context_pfister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:text="CONTEXTO: Gravidade de depressão e diagnóstico psiquiátrico"
+        android:text="CONTEXTO: Clínico, Organizacional e Trânsito."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.139" />
+        app:layout_constraintVertical_bias="0.143" />
 
     <TextView
-        android:id="@+id/text_time_bdi_ii"
+        android:id="@+id/text_time_pfister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TEMPO:  Não há tempo limite/mas em geral 05 a 10 minutos"
+        android:text="TEMPO:  Sem limite de tempo"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.191" />
+        app:layout_constraintVertical_bias="0.212" />
 
     <TextView
-        android:id="@+id/text_correction_bdi_ii"
+        android:id="@+id/text_correction_pfister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="130dp"
-        android:text="CORREÇÃO:Manual"
+        android:text="CORREÇÃO: Manual"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.086"
-        app:layout_constraintStart_toStartOf="@+id/text_items_bdi_ii"
+        app:layout_constraintStart_toStartOf="@+id/text_items_pfister"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.099" />
 
     <TextView
-        android:id="@+id/text_obj_bdi_ii"
+        android:id="@+id/text_obj_pfister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="OBJETIVO: Medir a intensidade da depressão​."
+        android:text="OBJETIVO: É um instrumento que avalia aspectos da personalidade, destacando principalmente a dinâmica afetiva e indicadores relativos a habilidades cognitivas do indivíduo."
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.229" />
+        app:layout_constraintVertical_bias="0.303" />
 
     <TextView
-        android:id="@+id/title_description_bdi_ii"
+        android:id="@+id/title_description_pfister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="DESCRIÇÃO"
@@ -92,10 +91,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.532" />
+        app:layout_constraintVertical_bias="0.651" />
 
     <TextView
-        android:id="@+id/text_description_bdi_ii"
+        android:id="@+id/text_description_pfister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="6dp"
@@ -103,36 +102,36 @@
         android:autoText="false"
         android:elegantTextHeight="true"
         android:freezesText="false"
-        android:text="É uma ferramenta de avaliação, para medir a presença e gravidade de sintomas depressivos, correspondentes aos critérios diagnósticos dos transtornos depressivos, descritos no Manual Diagnóstico e Estatístico dos Transtornos Mentais - Quarta Edição (DSM-IV), em pessoas de diferentes faixas etárias, tanto da população clínica como da população geral.          Instrumento composto por 21 itens, apresenta poucas dificuldades em relação à aplicação, sendo de fácil manuseio pelo usuário."
+        android:text="As Pirâmides Coloridas de Pfister visa à análise da emocionalidade de adultos, adolescentes e crianças dentro do quadro de diagnóstico da personalidade de pessoas normais e neuróticas."
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.749" />
+        app:layout_constraintVertical_bias="0.776" />
 
     <TextView
-        android:id="@+id/text_items_bdi_ii"
+        android:id="@+id/text_items_pfister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ITEMS: 1 Manual, 1 Caderno de Aplicação, 1 Bloco (c/25 fls) Raciocínio Matricial, 1 Crivo de Correção – Raciocínio Matricial, 1 Bloco (c/25 fls) Códigos, 1 Crivo de Correção – Códigos."
+        android:text="ITEMS: 01   Manual 01   Conjunto de quadrículos (reutilizável) 01   Cartela de cores (reutilizável) 01   Conjunto com 03 cartelas de base, com esquema da pirâmide (reutilizável) 01   Bloco com 30 folhas de respostas"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.395" />
+        app:layout_constraintVertical_bias="0.513" />
 
     <TextView
-        android:id="@+id/text_app_bdi_ii"
+        android:id="@+id/text_app_pfister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="QUEM PODE APLICAR: Restrito ao psicólogo"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/text_items_bdi_ii"
-        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintEnd_toEndOf="@+id/text_items_pfister"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.272" />
+        app:layout_constraintVertical_bias="0.41" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
