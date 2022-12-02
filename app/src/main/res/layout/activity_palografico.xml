@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".options.ui.personality.activys.PalograficoActivity">
+
+    <TextView
+        android:id="@+id/text_title_palografico"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/dark_grey"
+        android:text="PALOGRAFICO"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_aplication_palografico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APLICAÇÃO: Individual/Coletivo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/text_items_palografico"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <TextView
+        android:id="@+id/text_context_palografico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="CONTEXTO: Contexto clínico, Avaliação Psicossocial, Seleção de pessoas, Avaliação para obtenção ou renovação da Carteira Nacional de Habilitação (CNH), concessão para registro e/ou porte de arma de fogo."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.176" />
+
+    <TextView
+        android:id="@+id/text_time_palografico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEMPO:  Tempo limitado a 2 minutos e meio para a primeira parte e 5 minutos para a segunda parte."
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.283" />
+
+    <TextView
+        android:id="@+id/text_correction_palografico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CORREÇÃO: Manual/ Informatizada"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/text_items_palografico"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <TextView
+        android:id="@+id/text_obj_palografico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OBJETIVO:Avaliar a personalidade por meio do comportamento expressivo"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.368" />
+
+    <TextView
+        android:id="@+id/title_description_palografico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DESCRIÇÃO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.605" />
+
+    <TextView
+        android:id="@+id/text_description_palografico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:autoText="false"
+        android:elegantTextHeight="true"
+        android:freezesText="false"
+        android:text="Trata-se de um teste que avalia a personalidade por meio do comportamento expressivo. Sua aplicação é muito simples e rápida, mas sua avaliação e interpretação exigem um certo grau de preparação e experiência do psicólogo com a técnica. A correção é realizada pela avaliação quantitativa e qualitativa, com base nos traços realizados. Existem estudos de precisão, validade e tabelas em percentis para o público-alvo de acordo com sua escolaridade e sexo. "
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.808" />
+
+    <TextView
+        android:id="@+id/text_items_palografico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ITEMS: 1 Livro de Instruções (Manual) 4 Blocos com 25 Folhas 5 Roteiros de Avaliação"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515" />
+
+    <TextView
+        android:id="@+id/text_app_palografico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUEM PODE APLICAR: Restrito ao psicólogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/text_items_palografico"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

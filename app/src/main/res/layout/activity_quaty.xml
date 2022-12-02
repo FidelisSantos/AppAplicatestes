@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".options.ui.personality.activys.QuatyActivity">
+
+
+    <TextView
+        android:id="@+id/text_title_quaty"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/dark_grey"
+        android:text="QUATY"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_aplication_quaty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APLICAÇÃO: Individual/Coletivo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/text_items_quaty"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <TextView
+        android:id="@+id/text_context_quaty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="CONTEXTO: Organizacional e clinica"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.143" />
+
+    <TextView
+        android:id="@+id/text_time_quaty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEMPO:  Sem limite de tempo, sendo que a maioria das aplicações leva em média 45 minutos."
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22" />
+
+    <TextView
+        android:id="@+id/text_correction_quaty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CORREÇÃO: Manual/ Informatizada/Online"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/text_items_quaty"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <TextView
+        android:id="@+id/text_obj_quaty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OBJETIVO: Avaliar a personalidade por meio de escolhas situacionais. "
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.303" />
+
+    <TextView
+        android:id="@+id/title_description_quaty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DESCRIÇÃO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <TextView
+        android:id="@+id/text_description_quaty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:autoText="false"
+        android:elegantTextHeight="true"
+        android:freezesText="false"
+        android:text="O questionário, baseado nos tipos psicológicos de Jung, é composto 6 propostas de situações cotidianas, cada uma com aproximadamente 15 pares de afirmações, em que o sujeito escolhe as que mais se aproximam de seu comportamento e anota na folha apropriada. A correção é realizada pela quantidade de respostas dadas para cada uma das dimensões descritas, pela avaliação qualitativa e quantitativa. Existe atualmente uma versão informatizada com a correção automática do teste. Existem estudos de precisão, validade e tabelas em percentis para o público-alvo de acordo com sua escolaridade."
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.808" />
+
+    <TextView
+        android:id="@+id/text_items_quaty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ITEMS: 1 Livro de Exercício 2 Blocos com 25 Folhas 50 Correções Online 3 Crivos de Correção"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473" />
+
+    <TextView
+        android:id="@+id/text_app_quaty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUEM PODE APLICAR: Restrito ao psicólogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/text_items_quaty"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.389" />
+</androidx.constraintlayout.widget.ConstraintLayout>
