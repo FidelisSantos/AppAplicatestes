@@ -44,18 +44,22 @@ class RegisterActivy : AppCompatActivity() {
             val password = findViewById<EditText>(R.id.password_register).text.toString()
             if(email.isNotEmpty() && password.isNotEmpty()){
                 if(isEmail(email)) {
-                    firebaseAuth.createUserWithEmailAndPassword(email, password)
-                        .addOnCompleteListener {
-                            if (it.isSuccessful) {
-                                val intent = Intent(this, MainActivity::class.java)
-                                 saveInFirestore(name,rgm,cursor , email)
+                    if(password.length >= 6) {
+                        firebaseAuth.createUserWithEmailAndPassword(email, password)
+                            .addOnCompleteListener {
+                                if (it.isSuccessful) {
+                                    val intent = Intent(this, MainActivity::class.java)
+                                    saveInFirestore(name,rgm,cursor , email)
                                     startActivity(intent)
-                            } else {
-                                Log.w(ContentValues.TAG, "Erro ao criar usuário", it.exception)
-                                Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT)
-                                    .show()
+                                } else {
+                                    Toast.makeText(this, "Erro ao criar usuário", Toast.LENGTH_SHORT)
+                                        .show()
+                                }
                             }
-                        }
+                    }else {
+                        Toast.makeText(this, "Senha tem que ter mais de 6 dígitos",Toast.LENGTH_SHORT).show()
+                    }
+
                 }else{
                     Toast.makeText(this, "Email inválido",Toast.LENGTH_SHORT)
                 }

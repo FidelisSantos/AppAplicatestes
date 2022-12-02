@@ -9,6 +9,8 @@ import android.view.ViewGroup
 import com.example.appaplicatestes.databinding.FragmentWarningBinding
 import com.example.appaplicatestes.options.ui.warning.activys.AcActivity
 import com.example.appaplicatestes.options.ui.warning.activys.BpaActivity
+import com.example.appaplicatestes.options.ui.warning.activys.NeupsilinActivity
+import com.example.appaplicatestes.options.ui.warning.activys.RotasActivity
 
 
 class WarningFragment : Fragment() {
@@ -31,6 +33,15 @@ class WarningFragment : Fragment() {
             startActivity(intent)
         }
 
+        binding.btnNeupsilin.setOnClickListener {
+            val intent = Intent(this.activity, NeupsilinActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnRotas.setOnClickListener {
+            val intent = Intent(this.activity, RotasActivity::class.java)
+            startActivity(intent)
+        }
 
         return binding.root
     }
