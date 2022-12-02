@@ -62,18 +62,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <TextView
         android:id="@+id/text_name_bdi_ii"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:text="NOME: Inventário de Depressao de Beck"
-        app:layout_constraintBottom_toTopOf="@+id/text_context_bdii_ii"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.038"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_bdi_ii" />
-
+        app:layout_constraintTop_toBottomOf="@+id/btn_bdi_ii"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/text_idade_bdi_ii"
@@ -114,5 +115,101 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_valid_bdi_ii"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/text_name_ebadep_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOME: Escala Baptista de Depressão - Versão Adulto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <TextView
+        android:id="@+id/text_idade_ebadep_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IDADE:  17 a 81 anos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <TextView
+        android:id="@+id/text_valid_ebadep_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VALIDADE: 18/11/2031"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <TextView
+        android:id="@+id/text_qtd_ebadep_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUANTIDADE: 2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.146" />
+
+    <TextView
+        android:id="@+id/text_name_epd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOME: Escala de Pensamentos Depressivos "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.719" />
+
+    <TextView
+        android:id="@+id/text_idade_epd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IDADE:  18 a 59 anos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745" />
+
+    <TextView
+        android:id="@+id/text_valid_epd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VALIDADE: 28/02/2035"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_ebadep_a"
+        app:layout_constraintVertical_bias="0.771" />
+
+    <TextView
+        android:id="@+id/text_qtd_epd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUANTIDADE: 2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.797" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
