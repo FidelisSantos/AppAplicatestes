@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".options.ui.depression.activys.EpdActivity">
+    tools:context=".options.ui.intelligence.activys.CpmActivity">
 
     <TextView
-        android:id="@+id/text_title_epd"
+        android:id="@+id/text_title_cpm"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/dark_grey"
-        android:text="EPD"
+        android:text="CPM"
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,82 +19,82 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/text_aplication_epd"
+        android:id="@+id/text_aplication_cpm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="APLICAÇÃO: Individual / Coletivo"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/text_items_epd"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintEnd_toEndOf="@+id/text_items_cpm"
+        app:layout_constraintHorizontal_bias="0.424"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.063" />
+        app:layout_constraintVertical_bias="0.047" />
 
     <TextView
-        android:id="@+id/text_context_g36"
+        android:id="@+id/text_context_cpm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:text="CONTEXTO: Clínico, Hospitalar e em Pesquisas."
+        android:text="CONTEXTO: Inteligencia"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintHorizontal_bias="0.455"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.162" />
+        app:layout_constraintVertical_bias="0.127" />
 
     <TextView
-        android:id="@+id/text_time_epd"
+        android:id="@+id/text_time_cpm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TEMPO:  Não há limite de tempo para aplicação, sendo que, em média, 20 minutos são suficientes para responder o instrumento, além de ser aconselhável a aplicação em única sessão."
+        android:text="TEMPO:  O tempo médio de aplicação é de 30 a 50 minutos para participantes sem dificuldades cognitivas e participantes não-clínicos."
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.223" />
+        app:layout_constraintVertical_bias="0.175" />
 
     <TextView
-        android:id="@+id/text_correction_epd"
+        android:id="@+id/text_correction_cpm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="130dp"
-        android:text="CORREÇÃO:Manual"
+        android:text="CORREÇÃO: Manual/ Informatizada"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.088"
-        app:layout_constraintStart_toStartOf="@+id/text_items_epd"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="@+id/text_items_cpm"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.115" />
+        app:layout_constraintVertical_bias="0.087" />
 
     <TextView
-        android:id="@+id/text_obj_epd"
+        android:id="@+id/text_obj_cpm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="OBJETIVO: A Escala de Pensamentos Depressivos- EPD, é um instrumento autoaplicável, que contém 26 itens com 03 opções de respostas cada. Seu objetivo é avaliar distorções de pensamentos comumente encontradas em pessoas com depressão e está baseada no modelo da tríade cognitiva de A.T. Beck. "
+        android:text="OBJETIVO: O Matrizes Progressivas Coloridas de Raven (CPM) tem por objetivo mensurar a inteligência (Fator g), bem como fornecer informações sobre a habilidade dos indivíduos para gerar novos insights, ou seja, ir além da informação dada para perceber o que não é imediatamente óbvio (habilidade edutiva)."
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.346" />
+        app:layout_constraintVertical_bias="0.277" />
 
     <TextView
-        android:id="@+id/title_description_epd"
+        android:id="@+id/title_description_cpm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="DESCRIÇÃO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.639" />
+        app:layout_constraintVertical_bias="0.544" />
 
     <TextView
-        android:id="@+id/text_description_epd"
+        android:id="@+id/text_description_cpm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="6dp"
@@ -102,36 +102,37 @@
         android:autoText="false"
         android:elegantTextHeight="true"
         android:freezesText="false"
-        android:text="A EPD visa auxiliar pesquisadores e profissionais de saúde, em especial psicólogos clínicos e de ambulatórios de distúrbios/transtornos afetivos, no desenvolvimento de avaliações padronizadas e que possam também gerar intervenções mais efetivas e focadas no conteúdo dos pensamentos seja no desenvolvimento seja no agravamento de psicopatologias. Assim, visa contemplar a melhora da qualidade de vida não apenas do sujeito que tem pensamentos negativistas, mas também de sua família e daqueles que o acompanham."
+        android:text="O CPM é um teste rápido e de fácil aplicação que, em geral é atrativo para os respondentes, em especial pela presença de estímulos coloridos e pouca necessidade de leitura ao longo da aplicação, o que o torna uma alternativa viável em situações nas quais existem muitas diferenças de linguagem não associadas com as habilidades avaliadas; como crianças que não entendem ou falam a língua nacional, com portadores de deficiências físicas, afasias, paralisia cerebral ou surdez, bem como aqueles que apresentam algum nível de comprometimento intelectual. Composto por três partes: na parte A predomina a demanda por atenção aos detalhes visuais, na parte Ab, a capacidade de reconhecer e raciocinar em relações que incluem padrões e na parte B, alguns componentes de análise e raciocínio sobre relações entre estímulos não verbais constituem a principal demanda. Pode ser utilizado em avaliações clínicas e escolares ou em outros contextos nos quais se faça necessária a avaliação da inteligência e da habilidade edutiva. O manual apresenta estudos de caso como exemplo."
         android:textAlignment="center"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.886" />
+        app:layout_constraintVertical_bias="0.872" />
 
     <TextView
-        android:id="@+id/text_items_epd"
+        android:id="@+id/text_items_cpm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ITEMS: 1 Manual e 1 Bloco com 50 folhas (25 de resposta e 25 de registro)."
+        android:text="ITEMS: 01 Manual Técnico; 02 Cadernos de aplicação - Conjuntos A, Ab e B (reutilizável); 02 Blocos com 25 folhas de respostas; 01 Crivo de correção  "
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.556" />
+        app:layout_constraintVertical_bias="0.472" />
 
     <TextView
-        android:id="@+id/text_app_epd"
+        android:id="@+id/text_app_cpm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="QUEM PODE APLICAR: Restrito ao psicólogo"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/text_items_epd"
+        app:layout_constraintEnd_toEndOf="@+id/text_items_cpm"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.485" />
+        app:layout_constraintVertical_bias="0.403" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

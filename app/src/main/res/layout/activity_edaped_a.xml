@@ -34,7 +34,7 @@
         app:layout_constraintVertical_bias="0.05" />
 
     <TextView
-        android:id="@+id/text_context_bdii_ii"
+        android:id="@+id/text_context_g36"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
