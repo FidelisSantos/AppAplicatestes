@@ -12,8 +12,8 @@ import android.widget.ImageButton
 import android.widget.Toast
 import com.example.appaplicatestes.MainActivity
 import com.example.appaplicatestes.R
-import com.example.appaplicatestes.options.OptionsActivity
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
 import java.util.regex.Pattern
 
 class RegisterActivy : AppCompatActivity() {
@@ -36,6 +36,10 @@ class RegisterActivy : AppCompatActivity() {
         }
 
         btn_register.setOnClickListener{
+            val name = findViewById<EditText>(R.id.name).text.toString()
+            val rgm = findViewById<EditText>(R.id.rgm).text.toString()
+            val cursor = findViewById<EditText>(R.id.cursor).text.toString()
+
             val email = findViewById<EditText>(R.id.email_register).text.toString()
             val password = findViewById<EditText>(R.id.password_register).text.toString()
             if(email.isNotEmpty() && password.isNotEmpty()){
@@ -44,7 +48,8 @@ class RegisterActivy : AppCompatActivity() {
                         .addOnCompleteListener {
                             if (it.isSuccessful) {
                                 val intent = Intent(this, MainActivity::class.java)
-                                startActivity(intent)
+                                 saveInFirestore(name,rgm,cursor , email)
+                                    startActivity(intent)
                             } else {
                                 Log.w(ContentValues.TAG, "Erro ao criar usuário", it.exception)
                                 Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT)
@@ -61,6 +66,25 @@ class RegisterActivy : AppCompatActivity() {
     }
     fun  isEmail(email:String) : Boolean{
         return EMAIL_ADDRESS_PATTERN.matcher(email).matches();
+    }
+
+    fun saveInFirestore(name: String,rgm: Any, cursor:String, email: String){
+        val firestore = FirebaseFirestore.getInstance()
+        val user: MutableMap<String, Any> = HashMap()
+        user["name"] = name;
+        user["rgm"] = rgm;
+        user["cursor"] = cursor;
+        user["email"] = email;
+
+        firestore.collection("Users")
+            .add(user)
+            .addOnSuccessListener {
+                Toast.makeText(this, "Dados adicionados", Toast.LENGTH_SHORT).show()
+            }
+            .addOnFailureListener {
+                Toast.makeText(this, "Erro a cadastrar os dados", Toast.LENGTH_SHORT).show()
+            }
+
     }
 
 
