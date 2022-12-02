@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".options.ui.warning.activys.BpaActivity">
+
+    <TextView
+        android:id="@+id/text_title_bpa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/dark_grey"
+        android:text="BPA"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_aplication_bpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APLICAÇÃO: Individual/Coletivo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/text_items_bpa"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <TextView
+        android:id="@+id/text_context_bpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="CONTEXTO: Contextos clínico, escolar, organizacional e do trânsito, assim como na seleção de pessoal, no auxílio ao diagnóstico de transtorno de déficit de atenção e hiperatividade, em avaliações neuropsicológicas dentre outros"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.158" />
+
+    <TextView
+        android:id="@+id/text_time_bpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEMPO: Aproximadamente 20 minutos"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.259" />
+
+    <TextView
+        android:id="@+id/text_correction_bpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CORREÇÃO: Manual / Informatizado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/text_items_bpa"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <TextView
+        android:id="@+id/text_obj_bpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OBJETIVO: Realizar uma avaliação da capacidade geral de atenção, assim como uma avaliação individualizada de tipos de atenção específicos, quais sejam, Atenção Concentrada, Atenção Dividida e Atenção Alternada."
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327" />
+
+    <TextView
+        android:id="@+id/title_description_bpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DESCRIÇÃO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.641" />
+
+    <TextView
+        android:id="@+id/text_description_bpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:autoText="false"
+        android:elegantTextHeight="true"
+        android:freezesText="false"
+        android:text="Atenção Concentrada Indica a capacidade de uma pessoa em selecionar apenas uma fonte de informação diante de vários estímulos distratores em um tempo pré-determinado;     Atenção Dividida Indica a capacidade de uma pessoa para procurar dois ou mais estímulos simultaneamente em um tempo pré-determinado, sendo que os mesmos estão distribuídos aleatoriamente entre vários distratores;    Atenção Alternada Indica a capacidade de uma pessoa em focar sua atenção e selecionar ora em um estímulo, ora outro, diante de vários estímulos distratores por um determinado período de tempo."
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924" />
+
+    <TextView
+        android:id="@+id/text_items_bpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ITEMS: 1 Livro de Intruções (Manual) 1 Bloco com 25 Folhas - Livro de Interpretação 1 Bloco com 25 Folhas - Atenção Alternada 1 Bloco com 25 Folhas - Atenção Concentrada 1 Bloco com 25 Folhas - Atenção Dividida 1 Crivo de Correção - Atenção Alternada 1 Crivo de Correção - Atenção Concentrada 1 Crivo de Correção - Atenção Dividida"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <TextView
+        android:id="@+id/text_app_bpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUEM PODE APLICAR: Restrito ao psicólogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/text_items_bpa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

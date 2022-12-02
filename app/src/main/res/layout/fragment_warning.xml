@@ -8,13 +8,13 @@
     tools:context=".options.ui.warning.WarningFragment">
 
     <Button
-        android:id="@+id/btn_cpm"
+        android:id="@+id/btn_ac"
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:backgroundTint="@color/dark_grey"
-        android:text="CPM"
+        android:text="ac"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="16sp"
@@ -27,13 +27,13 @@
 
 
     <Button
-        android:id="@+id/btn_r1"
+        android:id="@+id/btn_neupsilin"
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:backgroundTint="@color/dark_grey"
-        android:text="R1"
+        android:text="neupsilin"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="16sp"
@@ -45,13 +45,13 @@
         app:layout_constraintVertical_bias="0.474" />
 
     <Button
-        android:id="@+id/btn_wisc"
+        android:id="@+id/btn_rotas"
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:backgroundTint="@color/dark_grey"
-        android:text="WISC"
+        android:text="rotas"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="16sp"
@@ -63,10 +63,10 @@
         app:layout_constraintVertical_bias="0.713" />
 
     <TextView
-        android:id="@+id/text_idade_r1"
+        android:id="@+id/text_idade_neupsilin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="IDADE:  A partir de 18 anos"
+        android:text="IDADE:  18 a 90 anos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.039"
@@ -75,10 +75,10 @@
         app:layout_constraintVertical_bias="0.557" />
 
     <TextView
-        android:id="@+id/text_qtd_r1"
+        android:id="@+id/text_qtd_neupsilin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="QUANTIDADE: 2"
+        android:text="QUANTIDADE: 1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.032"
@@ -87,37 +87,37 @@
         app:layout_constraintVertical_bias="0.612" />
 
     <TextView
-        android:id="@+id/text_name_r1"
+        android:id="@+id/text_name_neupsilin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NOME: R-1 Teste não-verbal de inteligência "
+        android:text="NOME: Instrumento de Avaliação Neuropsicológica Breve "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.532" />
+        app:layout_constraintVertical_bias="0.53" />
 
     <TextView
-        android:id="@+id/text_valid_r1"
+        android:id="@+id/text_valid_neupsilin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="VALIDADE: 11/04/2023"
+        android:text="VALIDADE: 04/05/2033"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.041"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/btn_g36"
+        app:layout_constraintTop_toTopOf="@+id/btn_bpa"
         app:layout_constraintVertical_bias="0.584" />
 
     <Button
-        android:id="@+id/btn_g36"
+        android:id="@+id/btn_bpa"
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:backgroundTint="@color/dark_grey"
-        android:text="G36"
+        android:text="bpa"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="16sp"
@@ -129,86 +129,86 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/text_name_cpm"
+        android:id="@+id/text_name_ac"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:text="NOME: Matrizes Progressivas Coloridas de Raven "
+        android:text="NOME: Teste AC "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintHorizontal_bias="0.016"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_cpm"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ac"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/text_idade_cpm"
+        android:id="@+id/text_idade_ac"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:text="IDADE: De 5 anos a 11 anos e 6 meses"
+        android:text="IDADE: 17 a 64 anos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintHorizontal_bias="0.017"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_name_cpm"
+        app:layout_constraintTop_toBottomOf="@+id/text_name_ac"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/text_valid_cpm"
+        android:id="@+id/text_valid_ac"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:text="VALIDADE: 19/05/2038"
+        android:text="VALIDADE: 25/10/2023"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.019"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_idade_cpm"
+        app:layout_constraintTop_toBottomOf="@+id/text_idade_ac"
         app:layout_constraintVertical_bias="0.004" />
 
     <TextView
-        android:id="@+id/text_qtd_cpm"
+        android:id="@+id/text_qtd_ac"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="2dp"
-        android:text="QUANTIDADE: 5"
+        android:text="QUANTIDADE: 16"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.029"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_valid_cpm"
+        app:layout_constraintTop_toBottomOf="@+id/text_valid_ac"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/text_name_g36"
+        android:id="@+id/text_name_bpa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NOME: G-36 Teste não-verbal de inteligência"
+        android:text="NOME: Bateria Psicológica para Avaliação da Atenção"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintHorizontal_bias="0.213"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.067" />
 
     <TextView
-        android:id="@+id/text_idade_g36"
+        android:id="@+id/text_idade_bpa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="IDADE:  A partir de 17 anos"
+        android:text="IDADE:  6 a 82 anos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintHorizontal_bias="0.055"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.094" />
 
     <TextView
-        android:id="@+id/text_valid_g36"
+        android:id="@+id/text_valid_bpa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="VALIDADE: 27/09/2023"
+        android:text="VALIDADE: 31/01/2033"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.06"
@@ -217,10 +217,10 @@
         app:layout_constraintVertical_bias="0.119" />
 
     <TextView
-        android:id="@+id/text_qtd_g36"
+        android:id="@+id/text_qtd_bpa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="QUANTIDADE: 11"
+        android:text="QUANTIDADE: 1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.051"
@@ -229,10 +229,10 @@
         app:layout_constraintVertical_bias="0.146" />
 
     <TextView
-        android:id="@+id/text_name_wisc"
+        android:id="@+id/text_name_rotas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="QUANTIDADE: 8"
+        android:text="QUANTIDADE: 2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.051"
@@ -241,36 +241,36 @@
         app:layout_constraintVertical_bias="0.835" />
 
     <TextView
-        android:id="@+id/text_idade_wisc"
+        android:id="@+id/text_idade_rotas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="IDADE:  06 anos e zero meses e 16 anos e 11 meses."
+        android:text="IDADE:  18 a 64 anos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintHorizontal_bias="0.056"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.778" />
 
     <TextView
-        android:id="@+id/text_valid_wisc"
+        android:id="@+id/text_valid_rotas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="136dp"
-        android:text="VALIDADE: 03/12/2031"
+        android:text="VALIDADE: 21/09/2039"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/text_qtd_wisc"
+        android:id="@+id/text_qtd_rotas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NOME:  Escala Wechsler de Inteligência para Crianças "
+        android:text="NOME:  Baterias de Rotas de Atenção "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintHorizontal_bias="0.092"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.751" />
