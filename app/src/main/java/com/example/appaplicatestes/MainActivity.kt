@@ -11,6 +11,7 @@ import android.widget.ImageButton
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.appaplicatestes.options.OptionsActivity
+import com.example.appaplicatestes.options.ui.depression.activys.BdiIiActivity
 import com.example.appaplicatestes.register.RegisterActivy
 import com.google.firebase.auth.FirebaseAuth
 import java.util.regex.Pattern

@@ -1,7 +1,9 @@
 package com.example.appaplicatestes.options
 
+import android.content.ClipData.Item
 import android.os.Bundle
 import android.view.Menu
+import androidx.appcompat.app.ActionBar
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
@@ -11,8 +13,12 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.view.menu.MenuView.ItemView
+import androidx.navigation.NavAction
+import androidx.navigation.Navigation
 import com.example.appaplicatestes.R
 import com.example.appaplicatestes.databinding.ActivityOptionsBinding
+import com.google.android.material.navigation.NavigationBarMenu
 
 class OptionsActivity : AppCompatActivity() {
 
